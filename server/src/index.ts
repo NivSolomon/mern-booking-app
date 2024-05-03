@@ -30,3 +30,5 @@ app.use("/api/users", userRoutes);
 app.listen(PORT, ()=> {
     console.log("Express server running on localhost: ", PORT);
 })
+
+export default app;
